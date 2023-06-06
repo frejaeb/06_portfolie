@@ -79,10 +79,17 @@ img {
   width: 70%;
 }
 
+.p_navn{
+  margin-left: 53%;
+  margin-top: 2%;
+  font-family: 'Marcellus', serif;
+}
 /************************************* tekst ******************************************/
 h1{
  font-family: 'Kaushan Script', cursive;
- font-size: 3rem;
+ font-size: 5rem;
+margin-left: 7%;
+margin-bottom: 0%;
 }
 
 /************************************  web *******************************************/
