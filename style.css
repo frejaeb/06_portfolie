@@ -10,8 +10,8 @@ html {
 
 /***************************** logo ********************************/
 .logo {
-  margin-top: -6.9%;
-  margin-left: 5%;
+  margin-top: -6%;
+  margin-left: -3%;
 }
 
 /*********************menubar**************************************/
@@ -41,6 +41,7 @@ a {
   text-decoration: none;
   font-weight: 200;
   color: #6f2625;
+     font-family: "Kaushan Script", cursive;
 }
 
 a:hover {
@@ -67,30 +68,51 @@ img {
   height: auto;
   width: 80%;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 /************************************* tekst ******************************************/
 h1 {
   font-family: "Kaushan Script", cursive;
-  font-size: 5rem;
+  font-size: 5.5rem;
   text-align: center;
   margin-bottom: 0%;
+  margin-top: 5%;
 }
 h2 {
   font-family: "Kaushan Script", cursive;
   font-size: 2rem;
   text-align: center;
-  margin-top: 0%;
+  margin-top: 13%;
+  margin-bottom: 5%;
+}
+h3{
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+  margin-left: 10%;
+  margin-bottom: 0%;
 }
 p {
   font-family: "Marcellus", serif;
   margin-left: 5%;
+  line-height: 160%;
+  font-size: 1rem;
 }
 .tekstbox {
   background-color: rgba(223, 204, 164, 0.7);
-  padding: 10px;
+  padding: 20px;
   display: inline-block;
   margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  margin-top: 0%;
+  width:fit-content;
+  height:fit-content;
+}
+.a_link{
+  margin-left: 5%;
+    margin-bottom: 10%;
+    font-size: 1.7rem;
 }
 /***************************** forside  *********************/
 .img_freja {
@@ -98,12 +120,14 @@ p {
   margin-top: 10%;
   left: 15%;
   width: 70%;
+  margin-bottom: -7%;
 }
 
 .p_navn {
   margin-left: 53%;
   margin-top: 2%;
   font-family: "Marcellus", serif;
+   font-size: 1rem;
 }
 
 /************************************  web *******************************************/
