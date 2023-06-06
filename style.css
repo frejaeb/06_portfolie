@@ -67,7 +67,7 @@ img {
   left: 10%;
   height: auto;
   width: 80%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-top: 5%;
 }
 
@@ -131,12 +131,7 @@ p {
 }
 /***************************** 03  *********************/
 
-iframe{
-  margin-left: 8%;
-  width:auto;
-  height:auto;
 
-}
 
 /************************************  web *******************************************/
 
