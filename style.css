@@ -1,0 +1,104 @@
+*
+
+/****************fortæller om*************************/
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/************************* generalle regler ***********************/
+html {
+  --primary: #ffffff;
+}
+
+/***************************** logo ********************************/
+.logo {
+  margin-top: -6.9%;
+  margin-left: 5%;
+}
+
+/*********************menubar**************************************/
+header {
+  position: relative;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  z-index: 100;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 200;
+  color: #6f2625;
+}
+
+a:hover {
+  color: #d3a056;
+}
+
+a.active {
+  color: #d3a056;
+}
+/***************************************body baugrund***********************************/
+
+body {
+  background-image: url(billeder/gen_60.svg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/************************************* billeder  *************************************/
+
+img {
+  position: relative;
+  left: 10%;
+  height: auto;
+  width: 80%;
+  margin-bottom: 10%;
+}
+/***************************** forside  *********************/
+.img_freja {
+  border-radius: 50%;
+  margin-top: 40%;
+  left: 15%;
+  width: 70%;
+}
+
+/************************************* tekst ******************************************/
+
+/************************************  web *******************************************/
+
+@media (min-width: 750px) {
+  /****************************baugrunds billed *************************************/
+  body {
+    background-image: url(billeder/dor_left01.svg), url(billeder/dor_right01.svg), url(/billeder/baugrund.webp);
+    background-position: right, left, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed;
+    padding: 0 100px;
+    background-attachment: fixed;
+    background-size: auto, auto, 100%;
+    z-index: 1000;
+  }
+
+  /*************************************** menubar *************************************/
+
+  /************************************* billeder *************************************/
+
+  /************************************* tekst ******************************************/
+}
