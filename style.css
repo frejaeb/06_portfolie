@@ -10,38 +10,51 @@ html {
 
 /***************************** logo ********************************/
 .logo {
-  margin-top: -6%;
-  margin-left: -3%;
+ 
 }
 
 /*********************menubar**************************************/
-header {
-  position: relative;
-  width: 100%;
-  padding: 1rem 2rem;
+.banner {
+  padding: 2rem;
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
-  align-items: baseline;
-
-  z-index: 100;
+  align-items: center;
+  gap: 20px 40px;
+}
+.toggle-btn {
+  display: block;
+}
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.main-menu.shown {
+  display: contents;
 }
 
-header nav ul {
+.main-menu ul {
+  display: none;
+}
+
+.main-menu.shown ul {
+  border-top: 3px solid #000;
+  padding-top: 1rem;
   display: flex;
-  justify-content: space-between;
+  flex-flow: column;
+  flex-basis: 100%;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 0.5rem;
-  gap: 30px;
-  overflow-x: auto;
 }
 
 a {
   text-decoration: none;
   font-weight: 200;
   color: #6f2625;
-     font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
 a:hover {
@@ -155,7 +168,31 @@ video {
   }
 
   /*************************************** menubar *************************************/
+  
+.banner {
+    padding: 2rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px 40px;
+  }
 
+  .toggle-btn {
+    display: none; /* Remove this line to display the toggle button */
+  }
+
+  .main-menu ul {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; /* Adjust the alignment as per your preference */
+    /* Adjust the alignment as per your preference */
+    list-style: none;
+    padding: 1rem 2rem;
+    gap: 30px;
+    font-size: 1.5rem;
+  }
   /************************************* billeder *************************************/
 
   /************************************* tekst ******************************************/
