@@ -3,18 +3,17 @@
   margin: auto;
 }
 
-/************************* generalle regler ***********************/
-html {
-  --primary: #ffffff;
-}
-
 /***************************** logo ********************************/
 .logo {
- 
+  margin-top: 20%;
+margin-left: 10%;
+  width: 40%;
+
 }
 
 /*********************menubar**************************************/
 .banner {
+  
   padding: 2rem;
   display: flex;
   flex-flow: wrap;
@@ -67,10 +66,12 @@ a.active {
 /***************************************body baugrund***********************************/
 
 body {
-  background-image: url(billeder/gen_30.svg);
+ background-image: url(/billeder/mobilbaugrund.webp);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat;
+  margin: 0;
+  height: 100%;
 }
 
 /************************************* billeder  *************************************/
@@ -90,7 +91,7 @@ h1 {
   font-size: 5.5rem;
   text-align: center;
   margin-bottom: 0%;
-  margin-top: 5%;
+  margin-top: 0%;
 }
 h2 {
   font-family: "Kaushan Script", cursive;
@@ -99,7 +100,7 @@ h2 {
   margin-top: 13%;
   margin-bottom: 5%;
 }
-h3{
+h3 {
   font-family: "Kaushan Script", cursive;
   font-size: 1.5rem;
   margin-left: 10%;
@@ -110,6 +111,7 @@ p {
   margin-left: 5%;
   line-height: 160%;
   font-size: 1rem;
+  
 }
 .tekstbox {
   background-color: rgba(223, 204, 164, 0.7);
@@ -119,13 +121,13 @@ p {
   margin-right: 5%;
   margin-bottom: 10%;
   margin-top: 0%;
-  width:fit-content;
-  height:fit-content;
+  width: fit-content;
+  height: fit-content;
 }
-.a_link{
+.a_link {
   margin-left: 5%;
-    margin-bottom: 10%;
-    font-size: 1.7rem;
+  margin-bottom: 10%;
+  font-size: 1.7rem;
 }
 /***************************** forside  *********************/
 .img_freja {
@@ -140,7 +142,7 @@ p {
   margin-left: 53%;
   margin-top: 2%;
   font-family: "Marcellus", serif;
-   font-size: 1rem;
+  font-size: 1rem;
 }
 /***************************** 05  *********************/
 
@@ -151,26 +153,26 @@ video {
   margin-left: 5%;
 }
 
-
 /************************************  web *******************************************/
 
 @media (min-width: 750px) {
-  /****************************baugrunds billed *************************************/
-  body {
-    background-image: url(billeder/dor_left01.svg), url(billeder/dor_right01.svg), url(/billeder/baugrund.webp);
-    background-position: right, left, center;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-attachment: fixed;
-    padding: 0 100px;
-    background-attachment: fixed;
-    background-size: auto, auto, 100%;
-    z-index: 1000;
-  }
 
+  /***************************************body ***********************************/
+
+  body {
+    background-image: url(/billeder/bugrunddor_01.webp);
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+  }
   /*************************************** menubar *************************************/
-  
-.banner {
-    padding: 2rem;
+
+  .banner {
+    background-color: #473C2E;
+    margin-left: 7.6%;
+    margin-right: 7.6%;
+    margin-bottom: 5%;
+    padding: 0rem;
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
@@ -179,21 +181,64 @@ video {
   }
 
   .toggle-btn {
-    display: none; /* Remove this line to display the toggle button */
+    display: none;
   }
-
+  .main-menu {
+    margin-right: 5%;
+  }
   .main-menu ul {
     position: relative;
     display: flex;
     flex-flow: row;
-    justify-content: space-between; /* Adjust the alignment as per your preference */
-    /* Adjust the alignment as per your preference */
+    justify-content: space-between;
     list-style: none;
     padding: 1rem 2rem;
     gap: 30px;
     font-size: 1.5rem;
   }
-  /************************************* billeder *************************************/
+  .main-menu ul li {
+    text-align: center;
+  }
+  /***************************** logo ********************************/
+  .logo {
+    margin-top: -3%;
+    left: -10%;
+    width: 15%;
+    margin-bottom: 0%;
+  }
+  /************************************* fonts *************************************/
+  p {
+    font-family: "Marcellus", serif;
+    margin-left: 5%;
+    line-height: 160%;
+    font-size: 1.2rem;
+   
+  }
 
-  /************************************* tekst ******************************************/
+  /************************************* portfolie **************************************/
+  .Portfolio {
+    font-size: 16rem;
+    
+  }
+  .img_freja {
+    border-radius: 50%;
+    margin-top: 10%;
+    left: 15%;
+    width: 70%;
+    margin-bottom: -7%;
+  }
+
+  .p_navn {
+    margin-left: 60%;
+    margin-top: 0%;
+    font-family: "Marcellus", serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+   
+  }
+  /************************************* 02 ******************************************/
+  /************************************* 03 ******************************************/
+  /************************************* 04 ******************************************/
+  /************************************* 05 ******************************************/
+  /************************************* 06 ******************************************/
 }
