@@ -5,9 +5,9 @@
 
 /***************************** logo ********************************/
 .logo {
-  margin-top: 20%;
-margin-left: 10%;
-  width: 40%;
+  margin-top: -7%;
+margin-left: -5%;
+  width: 34%;
 
 }
 
@@ -31,6 +31,7 @@ margin-left: 10%;
   min-height: 44px;
   font-size: 1.1rem;
   cursor: pointer;
+  font-family: "Marcellus", serif;
 }
 .main-menu.shown {
   display: contents;
@@ -52,16 +53,17 @@ margin-left: 10%;
 a {
   text-decoration: none;
   font-weight: 200;
-  color: #6f2625;
+  color: #000;
   font-family: "Kaushan Script", cursive;
+  font-size: 1.3rem;
 }
 
 a:hover {
-  color: #d3a056;
+  color: #D3A056;
 }
 
 a.active {
-  color: #d3a056;
+  color: #C7792E;
 }
 /***************************************body baugrund***********************************/
 
@@ -144,6 +146,11 @@ p {
   font-family: "Marcellus", serif;
   font-size: 1rem;
 }
+.liste{
+ font-family: "Marcellus", serif;
+   font-size: 1rem;
+   line-height: 160%;
+}
 /***************************** 05  *********************/
 
 video {
@@ -168,7 +175,7 @@ video {
   /*************************************** menubar *************************************/
 
   .banner {
-    background-color: #473C2E;
+    background-color: #594936;
     margin-left: 7.6%;
     margin-right: 7.6%;
     margin-bottom: 5%;
