@@ -153,6 +153,7 @@ footer {
   margin-top: 2%;
   font-family: "Marcellus", serif;
   font-size: 1rem;
+  margin-bottom: 20%;
 }
 .liste {
   font-family: "Marcellus", serif;
@@ -215,12 +216,32 @@ video {
   }
   /***************************** logo ********************************/
   .logo {
-    margin-top: -3%;
-    left: -10%;
-    width: 15%;
+    margin-top: -0.5%;
+    left: 15%;
+    width: 20%;
     margin-bottom: 0%;
   }
   /************************************* fonts *************************************/
+  a {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10%;
+  }
+  h3 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+
+  .a_link {
+    margin-left: 5%;
+    margin-bottom: 10%;
+    font-size: 1.7rem;
+  }
   p {
     font-family: "Marcellus", serif;
     margin-left: 5%;
@@ -229,26 +250,52 @@ video {
   }
 
   /************************************* portfolie **************************************/
+  .grid_forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .img_freja {
+    grid-column: 1;
+    grid-row: 1;
+  }
   .Portfolio {
     font-size: 16rem;
+    margin-top: 11%;
   }
   .img_freja {
     border-radius: 50%;
-    margin-top: 10%;
-    left: 15%;
-    width: 70%;
-    margin-bottom: -7%;
+    margin-top: 0%;
+    left: 2%;
+    width: 90%;
+    margin-bottom: 0%;
   }
 
   .p_navn {
-    margin-left: 60%;
+    margin-left: 63%;
     margin-top: 0%;
+    margin-bottom: 30%;
     font-family: "Marcellus", serif;
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
   }
   /************************************* 02 ******************************************/
   /************************************* 03 ******************************************/
+  .grid_03tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_03galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .overskrift_03 {
+    margin-right: 50%;
+  }
   /************************************* 04 ******************************************/
   /************************************* 05 ******************************************/
   /************************************* 06 ******************************************/
