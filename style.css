@@ -264,7 +264,7 @@ video {
   .img_freja {
     border-radius: 50%;
     margin-top: 0%;
- margin-left: -50px;
+    margin-left: -50px;
     width: 90%;
     margin-bottom: 0%;
   }
@@ -292,12 +292,18 @@ video {
     margin-right: 50%;
   }
   /************************************* 04 ******************************************/
+  .monster_billed {
+    margin-top: 20%;
+  }
 
   /************************************* 05 ******************************************/
   .pilot_vidio {
     grid-column: 1 / span 2;
     text-align: left;
     margin-left: 80px;
+  }
+  .overskrift_website {
+    margin-right: 50%;
   }
 
   /************************************* 06 ******************************************/
