@@ -279,24 +279,27 @@ video {
     letter-spacing: 0.1rem;
   }
   /************************************* 02 ******************************************/
+  .grid_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   /************************************* 03 ******************************************/
-  .grid_03tekst {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+  
 
-  .grid_03galleri {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    object-fit: cover;
-    align-self: stretch;
-  }
+.galleri04{
+  order: 1;
+}
 
   .overskrift_03 {
     margin-right: 50%;
   }
   /************************************* 04 ******************************************/
+
   /************************************* 05 ******************************************/
+  .pilot_vidio{
+    grid-column: 1/span 2;
+    text-align: left;
+  }
+
   /************************************* 06 ******************************************/
 }
