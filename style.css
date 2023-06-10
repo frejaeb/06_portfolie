@@ -295,7 +295,7 @@ video {
   .overskrift_03 {
     margin-right: 50%;
   }
-  .billed_1{
+  .billed_1 {
     margin-top: 60px;
   }
   /************************************* 04 ******************************************/
@@ -318,21 +318,13 @@ video {
   .overskrift_website {
     margin-right: 50%;
   }
-  .billed_05_0 {
-    margin-top: 150px;
-  }
 
   /************************************* 06 ******************************************/
   .overskrift_06 {
     margin-right: 50%;
   }
-  .billed_06_03 {
-    margin-top: 150px;
-  }
+
   .billed_06_05 {
     margin-bottom: 90px;
-  }
-  .billed_06_06 {
-    margin-top: 150px;
   }
 }
