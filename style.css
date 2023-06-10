@@ -173,7 +173,9 @@ video {
 
 @media (min-width: 750px) {
   /***************************************body ***********************************/
-
+  img {
+    margin-bottom: 0%;
+  }
   body {
     background-image: url(/billeder/bugrunddor_01.webp);
     margin: 0;
@@ -282,20 +284,25 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /************************************* 03 ******************************************/
-
-  .galleri04 {
-    order: 1;
+  .billed_02_03 {
+    margin-top: 100px;
   }
+  /************************************* 03 ******************************************/
 
   .overskrift_03 {
     margin-right: 50%;
   }
   /************************************* 04 ******************************************/
+
+  .galleri04 {
+    order: 1;
+  }
   .monster_billed {
     margin-top: 20%;
   }
-
+  .billed_04_01 {
+    margin-top: 80px;
+  }
   /************************************* 05 ******************************************/
   .pilot_vidio {
     grid-column: 1 / span 2;
@@ -307,4 +314,16 @@ video {
   }
 
   /************************************* 06 ******************************************/
+  .overskrift_06 {
+    margin-right: 50%;
+  }
+  .billed_06_03 {
+    margin-top: 100px;
+  }
+  .billed_06_05 {
+    margin-bottom: 90px;
+  }
+  .billed_06_06 {
+    margin-top: 100px;
+  }
 }
