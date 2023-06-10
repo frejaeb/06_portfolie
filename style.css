@@ -295,16 +295,19 @@ video {
   .overskrift_03 {
     margin-right: 50%;
   }
+  .billed_1{
+    margin-top: 60px;
+  }
   /************************************* 04 ******************************************/
 
   .galleri04 {
     order: 1;
   }
   .monster_billed {
-    margin-top: 20%;
+    margin-top: 40%;
   }
   .billed_04_01 {
-    margin-top: 80px;
+    margin-top: 110px;
   }
   /************************************* 05 ******************************************/
   .pilot_vidio {
@@ -324,12 +327,12 @@ video {
     margin-right: 50%;
   }
   .billed_06_03 {
-    margin-top: 100px;
+    margin-top: 150px;
   }
   .billed_06_05 {
     margin-bottom: 90px;
   }
   .billed_06_06 {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 }
