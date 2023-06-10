@@ -250,6 +250,9 @@ video {
     line-height: 160%;
     font-size: 1.2rem;
   }
+  .liste {
+    font-size: 1.2rem;
+  }
 
   /************************************* portfolie **************************************/
   .grid_forside {
@@ -311,6 +314,9 @@ video {
   }
   .overskrift_website {
     margin-right: 50%;
+  }
+  .billed_05_0 {
+    margin-top: 150px;
   }
 
   /************************************* 06 ******************************************/
