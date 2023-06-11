@@ -1,4 +1,4 @@
-* main {
+main {
   max-width: 1200px;
   margin: auto;
 }
@@ -283,6 +283,7 @@ video {
     letter-spacing: 0.1rem;
   }
   /************************************* 02 ******************************************/
+  /* grid 1 1 er et grid i 2 coloner*/
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -299,7 +300,7 @@ video {
     margin-top: 60px;
   }
   /************************************* 04 ******************************************/
-
+  /*** oder betyder rekkeflegn sådan kanb man skifte ******/
   .galleri04 {
     order: 1;
   }
@@ -310,6 +311,7 @@ video {
     margin-top: 110px;
   }
   /************************************* 05 ******************************************/
+  /** span så vil billed strækker sig over i dette telfælde 2 colonner fra colone 1 til 2**/
   .pilot_vidio {
     grid-column: 1 / span 2;
     text-align: left;
