@@ -11,6 +11,11 @@ main {
 }
 
 /*********************menubar**************************************/
+/*Padding angiver mellemrummet, flex placere elemnter flexibelt, 
+Flex-flow-wrap kombinere flex-derection(fortæller om placering i colum) 
+og flex wrap får elemnter til at pakke sig ind på flere linjer hvis de ikke passer-vanret
+Justy-con angiver hvordan elemnter skal justeres, her skal der vare samme afstand mellem elementer
+Gap angiver mellemrummet*/
 .banner {
   padding: 2rem;
   display: flex;
@@ -22,6 +27,7 @@ main {
 .toggle-btn {
   display: block;
 }
+/* courser pont fortæller at emnet er klikbart når man holder musern over(menu)*/
 .toggle-btn {
   background: transparent;
   border: none;
@@ -38,7 +44,9 @@ main {
 .main-menu ul {
   display: none;
 }
-
+/* felx-flow-colum betyder at menuen skal stå i en kolone under i´hianden i stedet for på række
+flex-basis-100 betyder at elmenter fykder hele flex boksen af tilgængelig plads
+liststyle-non angiver at der ikke skal være nogen punkt liste */
 .main-menu.shown ul {
   border-top: 3px solid #000;
   padding-top: 1rem;
@@ -47,7 +55,8 @@ main {
   flex-basis: 100%;
   list-style: none;
 }
-
+/*tex deco-non fjerne evt strege igenne eller under tekst'
+font wight angiver tykkelse, her er den tynd,400 er nomalen*/
 a {
   text-decoration: none;
   font-weight: 200;
@@ -112,6 +121,7 @@ p {
   line-height: 160%;
   font-size: 1rem;
 }
+/* fit-content tilpasser sig efter indholdet, dette gør den responsiv*/
 .tekstbox {
   background-color: rgba(223, 204, 164, 0.7);
   padding: 20px;
